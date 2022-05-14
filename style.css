@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.header {
+  display: flex;
+  max-width: 300px;
+}
+
+.rover {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 249, 250);
+  padding: 10px;
+  max-width: 300px;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.input-group{
+  display: inherit;
+  flex-direction: row;
+}
+
+.input {
+  flex: inherit;
+  flex: rows;
+}
+
+input {
+  width: 50px;
+}
+
+input#txtCommandA {
+  width: 200px;
+}
+
+input#txtCommandB {
+  width: 200px;
+}
+
+div.btn {
+  display: flex;
+  flex-flow: row;
+}

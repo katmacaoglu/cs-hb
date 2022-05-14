@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+  <div class="container">
+    <div class="rover">
+      <div class="header">
+        <h3>Plateau Size</h3>
+      </div>
+      <div class="input-group">
+        <div class="input"> 
+          <label for="txtPlateauRowCount">Row</label>
+          <input type="text" id="txtPlateauRowCount" value="5">
+        </div>
+        <div class="input">
+          <label for="txtPlateauColumnCount">Column</label>
+          <input type="text" id="txtPlateauColumnCount" value="5">
+        </div>
+      </div>
+      <div class="header">
+        <h3>Rover A Position</h3>
+      </div>
+      <div class="input-group">
+        <div class="input">
+          <label for="txtXA">X</label>
+          <input type="text" id="txtXA" value="1">
+        </div>
+        <div class="input">
+          <label for="txtYA">Y</label>
+          <input type="text" id="txtYA" value="2">
+        </div>
+        <div class="input">
+          <label for="txtDirectA">Direction</label>
+          <input type="text" id="txtDirectA" value="N">
+        </div>
+      </div>
+      <div class="header">
+        <h3>Command A</h3>
+      </div>
+      <div class="input-group">
+        <div class="input">
+          <label for="txtCommandA">Action</label>
+          <input type='text' id='txtCommandA' value="LMLMLMLMM"></input>
+        </div>
+      </div>
+      <div class="input-group">
+        <pre id="resultA" class="result"></pre>
+      </div>
+    </div>
+    <div class="rover">
+      <div class="header">
+        <h3></h3>
+      </div>
+      <div class="input-group">
+        <div class="input"> 
+          
+        </div>
+        <div class="input"></div>
+      </div>
+      <div class="header">
+        <h3>Rover B Position</h3>
+      </div>
+      <div class="input-group">
+        <div class="input">
+          <label for="txtXB">X</label>
+          <input type="text" id="txtXB" value="3">
+        </div>
+        <div class="input">
+          <label for="txtYB">Y</label>
+          <input type="text" id="txtYB" value="3">
+        </div>
+        <div class="input">
+          <label for="txtDirectB">Direction</label>
+          <input type="text" id="txtDirectB" value="E">
+        </div>
+      </div>
+      <div class="header">
+        <h3>Command B</h3>
+      </div>
+      <div class="input-group">
+        <div class="input">
+          <label for="txtCommandB">Action</label>
+          <input type='text' id='txtCommandB' value="MMRMMRMRRM"></input>
+        </div>
+      </div>
+      <div class="input-group">
+        <pre id="resultB" class="result"></pre>
+      </div>
+    </div>
+    <div class="btn" >
+      <button id='btnGo'>GO</button>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
